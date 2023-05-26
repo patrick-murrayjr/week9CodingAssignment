@@ -8,23 +8,181 @@
     <link
       rel="stylesheet"
       href="/node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="p-3 mb-2 text-dark">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-      <div class="container-sm">
-        <span class="navbar-brand mb-0 h1">XYZ corp.</span>
-        <ul class="navbar-nav">
-          <!-- NAV ITEMS -->
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Survey</a>
-          </li>
-          <li class="nav-item">
-            <a href="results.html" class="nav-link">Results</a>
-          </li>
-        </ul>
+    <div class="container-lg">
+      <nav
+        class="navbar navbar-expand-md navbar-dark bg-dark border border-secondary rounded fixed-top">
+        <div class="container-md">
+          <a
+            class="navbar-brand"
+            style="color: var(--bs-warning)"
+            href="index.html">
+            <img src="/images/logo.png" alt="Star" height="30" />
+
+            Comics</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="order.html"
+                  style="color: var(--bs-warning)"
+                  >Order Now</a
+                >
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#package-1"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Package Deals
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#package-1"
+                      style="color: var(--bs-secondary)"
+                      >Padawan Package</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#package-2"
+                      style="color: var(--bs-secondary)"
+                      >Jedi Knight Package</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#package-3"
+                      style="color: var(--bs-secondary)"
+                      >Jedi Master Package</a
+                    >
+                  </li>
+                </ul>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <main class="container-sm" id="main-container">
+      <div class="row mt-6 mx-3 gap">
+        <div class="col-md-6 align-items-center justify-content-center">
+          <div class="container-sm">
+            <div class="row gap">
+              <div
+                class="card text-bg-dark bg-dark shadow-lg border border-secondary px-6 pb-2 mb-4">
+                <h1 class="display-5 text-center fw-normal pt-3">BOBA FETT</h1>
+                <h2 class="text-center">The Hunt for Han Solo</h2>
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Follow the infamous bounty hunter, Boba Fett, on an
+                    adrenaline-fueled pursuit through the galaxy. Set in the
+                    aftermath of the Battle of Hoth, the story delves into Boba
+                    Fett's relentless quest to capture the elusive Han Solo, the
+                    charismatic smuggler who has evaded him for far too long.
+                  </p>
+                  <div class="text-center">
+                    <a
+                      href="order.html"
+                      class="btn btn-warning btn-lg text-center">
+                      Buy Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card text-bg-dark bg-dark shadow-lg border border-secondary px-1 d-none d-xl-block">
+                <div class="card-body">
+                  <figure class="p-1">
+                    <blockquote class="blockquote">
+                      <p class="fs-6">
+                        "Boba Fett: The Hunt for Han Solo" delivers an
+                        action-packed and visually stunning adventure that keeps
+                        you hooked from start to finish. A must-read for Star
+                        Wars fans and graphic novel enthusiasts alike!
+                      </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Wiliam D. Williams
+                      <cite title="Source Title">Comic Book Insider</cite>
+                    </figcaption>
+                  </figure>
+                  <hr />
+                  <figure class="p-1">
+                    <blockquote class="blockquote">
+                      <p class="fs-6">
+                        This graphic novel perfectly captures the essence of
+                        Boba Fett's character, blending intense action sequences
+                        with a captivating storyline that will leave you eager
+                        for more.
+                      </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Benjamin Kenobi
+                      <cite title="Source Title">Star Wars Weekly</cite>
+                    </figcaption>
+                  </figure>
+                  <hr />
+                  <figure class="p-1">
+                    <blockquote class="blockquote">
+                      <p class="fs-6">
+                        "The Hunt for Han Solo" brings together the iconic clash
+                        between Boba Fett and Han Solo in a visually striking
+                        and emotionally charged narrative, offering a thrilling
+                        reading experience that fans won't want to miss.
+                      </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Luke Vadersson
+                      <cite title="Source Title">Superfan Magazine</cite>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <div
+            class="card bg-dark shadow-lg border border-secondary d-none d-md-block">
+            <div class="card-body border border-secondary">
+              <img
+                src="./images/boba_fett_book_cover.jpg"
+                alt="Boba Fett book cover"
+                class="img-fluid rounded border border-secondary" />
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
+    </main>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
