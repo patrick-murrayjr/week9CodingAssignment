@@ -91,93 +91,236 @@
       </nav>
     </div>
 
-    <!-- MAIN CONTAINER -->
-    <main class="container-sm" id="main-container">
-      <div class="row mt-6 mx-3 gap">
+    <!-- ORDER CONTAINER -->
+    <main class="container-xl" id="order-container">
+      <div class="row mt-6 mx-6 gap-0">
         <div class="col-md-6 align-items-center justify-content-center">
-          <div class="container-sm">
-            <div class="row gap">
-              <div
-                class="card text-bg-dark bg-dark shadow-lg border border-secondary px-6 pb-2 mb-4">
-                <h1 class="display-5 text-center fw-normal pt-3">BOBA FETT</h1>
-                <h2 class="text-center">The Hunt for Han Solo</h2>
-                <div class="card-body">
-                  <p class="card-text text-center">
-                    Follow the infamous bounty hunter, Boba Fett, on an
-                    adrenaline-fueled pursuit through the galaxy. Set in the
-                    aftermath of the Battle of Hoth, the story delves into Boba
-                    Fett's relentless quest to capture the elusive Han Solo, the
-                    charismatic smuggler who has evaded him for far too long.
-                  </p>
-                  <div class="text-center">
-                    <a
-                      href="order.html"
-                      class="btn btn-warning btn-lg text-center">
-                      Buy Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="card text-bg-dark bg-dark shadow-lg border border-secondary px-1 d-none d-xl-block">
-                <div class="card-body">
-                  <figure class="p-1">
-                    <blockquote class="blockquote">
-                      <p class="fs-6">
-                        "Boba Fett: The Hunt for Han Solo" delivers an
-                        action-packed and visually stunning adventure that keeps
-                        you hooked from start to finish. A must-read for Star
-                        Wars fans and graphic novel enthusiasts alike!
-                      </p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                      Wiliam D. Williams
-                      <cite title="Source Title">Comic Book Insider</cite>
-                    </figcaption>
-                  </figure>
-                  <hr />
-                  <figure class="p-1">
-                    <blockquote class="blockquote">
-                      <p class="fs-6">
-                        This graphic novel perfectly captures the essence of
-                        Boba Fett's character, blending intense action sequences
-                        with a captivating storyline that will leave you eager
-                        for more.
-                      </p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                      Benjamin Kenobi
-                      <cite title="Source Title">Star Wars Weekly</cite>
-                    </figcaption>
-                  </figure>
-                  <hr />
-                  <figure class="p-1">
-                    <blockquote class="blockquote">
-                      <p class="fs-6">
-                        "The Hunt for Han Solo" brings together the iconic clash
-                        between Boba Fett and Han Solo in a visually striking
-                        and emotionally charged narrative, offering a thrilling
-                        reading experience that fans won't want to miss.
-                      </p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                      Luke Vadersson
-                      <cite title="Source Title">Superfan Magazine</cite>
-                    </figcaption>
-                  </figure>
-                </div>
-              </div>
+          <div class="card text-center mb-4 bg-dark border border-secondary">
+            <img
+              src="./images/t-shirt_arrows.jpg"
+              class="card-img-top p-3"
+              alt="..." />
+            <div class="card-body bg-dark text-bg-dark">
+              <table
+                class="table table-dark table-striped text-center table-bordered">
+                <thead>
+                  <h3 class="mb-2">Unisex T-Shirt Sizing Chart</h3>
+                  <tr>
+                    <th>Size</th>
+                    <th>*Width</th>
+                    <th>*Length</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>S</td>
+                    <td>18</td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>M</td>
+                    <td>20</td>
+                    <td>29</td>
+                  </tr>
+                  <tr>
+                    <td>L</td>
+                    <td>22</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>XL</td>
+                    <td>24</td>
+                    <td>31</td>
+                  </tr>
+                  <tr>
+                    <td>2XL</td>
+                    <td>26</td>
+                    <td>32</td>
+                  </tr>
+                  <tr>
+                    <td>3XL</td>
+                    <td>28</td>
+                    <td>33</td>
+                  </tr>
+                </tbody>
+              </table>
+              <small>*Measurements are in inches</small>
             </div>
           </div>
         </div>
-        <div class="col-md-6 text-center">
-          <div
-            class="card bg-dark shadow-lg border border-secondary d-none d-md-block">
-            <div class="card-body border border-secondary">
-              <img
-                src="./images/boba_fett_book_cover.jpg"
-                alt="Boba Fett book cover"
-                class="img-fluid rounded border border-secondary" />
+        <div class="col-md-6">
+          <div class="card text-bg-dark mb-4 bg-dark border border-secondary">
+            <div class="card-body">
+              <h3 class="card-title text-center">Place Order</h3>
+              <form class="p-4">
+                <div class="mb-3">
+                  <label for="first-name" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="first-name"
+                    placeholder="First Name" />
+                </div>
+                <div class="mb-3">
+                  <label for="last-name" class="form-label">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="last-name"
+                    placeholder="Last Name" />
+                </div>
+                <div class="container mb-3">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="me-3">
+                        <label for="street-address" class="form-label"
+                          >Street Address</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="street-address"
+                          placeholder="Street Address" />
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="me-3">
+                        <label for="state" class="form-label">State</label>
+                        <select
+                          id="state"
+                          class="form-select"
+                          aria-label="Default select example">
+                          <option selected>State</option>
+                          <option value="AL">AL</option>
+                          <option value="AK">AK</option>
+                          <option value="AR">AR</option>
+                          <option value="AZ">AZ</option>
+                          <option value="CA">CA</option>
+                          <option value="CO">CO</option>
+                          <option value="CT">CT</option>
+                          <option value="DC">DC</option>
+                          <option value="DE">DE</option>
+                          <option value="FL">FL</option>
+                          <option value="GA">GA</option>
+                          <option value="HI">HI</option>
+                          <option value="IA">IA</option>
+                          <option value="ID">ID</option>
+                          <option value="IL">IL</option>
+                          <option value="IN">IN</option>
+                          <option value="KS">KS</option>
+                          <option value="KY">KY</option>
+                          <option value="LA">LA</option>
+                          <option value="MA">MA</option>
+                          <option value="MD">MD</option>
+                          <option value="ME">ME</option>
+                          <option value="MI">MI</option>
+                          <option value="MN">MN</option>
+                          <option value="MO">MO</option>
+                          <option value="MS">MS</option>
+                          <option value="MT">MT</option>
+                          <option value="NC">NC</option>
+                          <option value="NE">NE</option>
+                          <option value="NH">NH</option>
+                          <option value="NJ">NJ</option>
+                          <option value="NM">NM</option>
+                          <option value="NV">NV</option>
+                          <option value="NY">NY</option>
+                          <option value="ND">ND</option>
+                          <option value="OH">OH</option>
+                          <option value="OK">OK</option>
+                          <option value="OR">OR</option>
+                          <option value="PA">PA</option>
+                          <option value="RI">RI</option>
+                          <option value="SC">SC</option>
+                          <option value="SD">SD</option>
+                          <option value="TN">TN</option>
+                          <option value="TX">TX</option>
+                          <option value="UT">UT</option>
+                          <option value="VT">VT</option>
+                          <option value="VA">VA</option>
+                          <option value="WA">WA</option>
+                          <option value="WI">WI</option>
+                          <option value="WV">WV</option>
+                          <option value="WY">WY</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="me-3">
+                        <label for="zip" class="form-label">Zip Code</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="zip"
+                          placeholder="Zip" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    placeholder="yourname@email.com" />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="package-plan" class="form-label"
+                    >Choose Package Plan</label
+                  >
+                  <select
+                    id="package-plan"
+                    class="form-select"
+                    aria-label="Select Package Plan">
+                    <option selected>Please Select a Package</option>
+                    <option value="1">
+                      Padawan Package | Digital Download
+                    </option>
+                    <option value="2">
+                      Jedi Knight Package | Full Color Print Novel
+                    </option>
+                    <option value="3">
+                      Jedi Master Package | Full Color Print Novel & T-Shirt
+                    </option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="shirt-size" class="form-label"
+                    >Choose T-Shirt Size</label
+                  >
+                  <select
+                    id="shirt-size"
+                    class="form-select"
+                    aria-label="Select Shirt Size">
+                    <option selected>Please Select a T-Shirt Size</option>
+                    <option value="1">Small</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Large</option>
+                    <option value="4">Extra-Large</option>
+                    <option value="5">Double Extra-Large</option>
+                    <option value="6">Triple Extra-Large</option>
+                  </select>
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="mailing-list" />
+                  <label class="form-check-label" for="mailing-list"
+                    >I would like to recieve email updates</label
+                  >
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-warning btn-lg">
+                    Proceed to Checkout
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
